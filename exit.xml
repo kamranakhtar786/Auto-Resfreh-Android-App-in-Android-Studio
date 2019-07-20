@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.technolifehacker.autorefresh.MainActivity">
+<RelativeLayout android:id="@+id/rel_ad"
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:background="@drawable/curve2"
+
+
+    android:orientation="vertical"
+    xmlns:ads="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/lin_medium_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+      />
+<RelativeLayout
+    android:layout_marginTop="5dp"
+    android:backgroundTint="#b64714"
+    android:background="@drawable/curve2"
+    android:layout_below="@+id/lin_medium_exit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/des_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold|italic"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:text="Do you really want to exit?"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_below="@+id/des_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/curve"
+            android:clickable="true"
+            android:id="@+id/btn_more"
+            android:layout_weight="0.3"
+android:textColor="#fff"
+            android:backgroundTint="#e7a84e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text=" more Apps"/>
+        <Button
+            android:background="@drawable/curve"
+            android:clickable="true"
+            android:id="@+id/btn_yes"
+            android:layout_weight="0.3"
+            android:textColor="#fff"
+            android:backgroundTint="#327acc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="yes"/>
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/curve"
+            android:clickable="true"
+            android:layout_weight="0.3"
+
+            android:backgroundTint="#28c27d"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="no"/>
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+</RelativeLayout>
+    </ScrollView>
